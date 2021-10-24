@@ -1,0 +1,39 @@
+.resposive-designe {
+    padding: 140px 0;
+    background: url(./../../../images/responsive-designe/triangle.png) no-repeat ;
+
+
+
+
+
+    .container {
+        background-image: url(./../../../images/responsive-designe/macbook.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    
+
+    .resposive-designe__content {
+
+        @extend %subtitle;
+        @extend %title;
+
+        p {
+            max-width: 550px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            margin-bottom: 32px;
+            color: #717171;
+        }
+
+
+
+    }
+
+
+
+
+
+}

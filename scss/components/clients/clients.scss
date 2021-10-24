@@ -1,0 +1,59 @@
+.clients {
+    padding: 150px 0;
+    background: url(./../../../images/clients/bcg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .clients__content {
+        .clients__items {
+            .clients__item {
+                color: white;
+
+                .client-photo {
+                    margin-bottom: 32px;
+                }
+
+                .title {
+                    h3 {
+                        font-size: 24px;
+                        font-weight: 500;
+                    }
+
+                    p {
+                        font-size: 16px;
+                        color: #ff6d6d;
+                        font-weight: 500;
+                    }
+                }
+
+                .text {
+                    color: #b4b4b6;
+                    font-size: 16px;
+                    max-width: 320px;
+                    margin: auto;
+
+                }
+
+
+
+
+
+
+
+            }
+
+
+
+
+
+        }
+
+
+
+        
+    }
+
+
+
+
+}

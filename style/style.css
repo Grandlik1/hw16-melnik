@@ -1,0 +1,179 @@
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/Exo/Exo-Thin.eot");
+  src: local("Exo Thin"), local("Exo-Thin"), url("./../fonts/Exo/Exo-Thin.eot?#iefix") format("embedded-opentype"), url("./../fonst/Exo/Exo-Thin.woff2") format("woff2"), url("./../fonts/Exo/Exo-Thin.woff") format("woff"), url("./../fonts/Exo/Exo-Thin.ttf") format("truetype"), url("./../fonts/Exo/Exo-Thin.svg#Exo-Thin") format("svg");
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/Exo/Exo-Medium.eot");
+  src: local("Exo Medium"), local("Exo-Medium"), url("./../fonts/Exo/Exo-Medium.eot?#iefix") format("embedded-opentype"), url("./../fonts/Exo/Exo-Medium.woff2") format("woff2"), url("./../fonts/Exo/Exo-Medium.woff") format("woff"), url("./../fonts/Exo/Exo-Medium.ttf") format("truetype"), url("./../fonts/Exo/Exo-Medium.svg#Exo-Medium") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/Exo/Exo-Regular.eot");
+  src: local("Exo Regular"), local("Exo-Regular"), url("./../fonts/Exo/Exo-Regular.eot?#iefix") format("embedded-opentype"), url("./../fonts/Exo/Exo-Regular.woff2") format("woff2"), url("./../fonts/Exo/Exo-Regular.woff") format("woff"), url("./../fonts/Exo/Exo-Regular.ttf") format("truetype"), url("./../fonts/Exo/Exo-Regular.svg#Exo-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Exo";
+  src: url("./../fonts/Exo/Exo-Bold.eot");
+  src: local("Exo Bold"), local("Exo-Bold"), url("./../fonts/Exo/Exo-Bold.eot?#iefix") format("embedded-opentype"), url("./../fonts/Exo/Exo-Bold.woff2") format("woff2"), url("./../fonts/Exo/Exo-Bold.woff") format("woff"), url("./../fonts/Exo/Exo-Bold.ttf") format("truetype"), url("./../fonts/Exo/Exo-Bold.svg#Exo-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+.resposive-designe .resposive-designe__content h3, .new-features .new-features__title h3, .new-design .new-design__content h3 {
+  margin-bottom: 16px;
+  font-size: 16px;
+  color: #ff6d6d;
+  font-weight: 500;
+}
+
+.resposive-designe .resposive-designe__content h2, .new-features .new-features__title h2, .new-design .new-design__content h2 {
+  max-width: 550px;
+  margin-bottom: 32px;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+}
+
+.banner {
+  background: url(./../../../images/banner/banner-photo.jpg);
+  height: 100vh;
+  width: 100%;
+  min-height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-attachment: scroll;
+}
+.banner .banner__content .play {
+  margin-bottom: 16px;
+}
+.banner .banner__content h1 {
+  font-size: 50px;
+  max-width: 700px;
+  letter-spacing: 4px;
+  line-height: 75px;
+  text-align: center;
+  font-family: "Exo";
+  font-weight: 100;
+  font-style: normal;
+}
+.banner .banner__content .button {
+  margin-bottom: 16px;
+}
+.banner .banner__content .button a {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  background-color: #ff6d6d;
+  padding: 16px 50px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.banner .banner__content .postscript {
+  color: #767779;
+  font-size: 16px;
+}
+
+.new-design {
+  background-image: url(./../../../images/new-design/bcg.png);
+  background-position: 68%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding: 190px 0 160px 0;
+}
+.new-design .new-design__content p {
+  max-width: 550px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 32px;
+  color: #717171;
+}
+
+.new-features {
+  padding: 140px 0 190px 0;
+  background-color: #f6f5f3;
+  background-image: url(./../../../images/new-features/bcg.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.new-features .new-features__title {
+  margin-bottom: 32px;
+}
+.new-features .new-features__card .img {
+  width: 100%;
+  margin-bottom: 32px;
+}
+.new-features .new-features__card h3 {
+  margin-bottom: 16px;
+}
+.new-features .new-features__card p {
+  max-width: 340px;
+  margin: auto;
+  color: #6e6e6d;
+}
+
+.resposive-designe {
+  padding: 140px 0;
+  background: url(./../../../images/responsive-designe/triangle.png) no-repeat;
+}
+.resposive-designe .container {
+  background-image: url(./../../../images/responsive-designe/macbook.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.resposive-designe .resposive-designe__content p {
+  max-width: 550px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 32px;
+  color: #717171;
+}
+
+.clients {
+  padding: 150px 0;
+  background: url(./../../../images/clients/bcg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.clients .clients__content .clients__items .clients__item {
+  color: white;
+}
+.clients .clients__content .clients__items .clients__item .client-photo {
+  margin-bottom: 32px;
+}
+.clients .clients__content .clients__items .clients__item .title h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.clients .clients__content .clients__items .clients__item .title p {
+  font-size: 16px;
+  color: #ff6d6d;
+  font-weight: 500;
+}
+.clients .clients__content .clients__items .clients__item .text {
+  color: #b4b4b6;
+  font-size: 16px;
+  max-width: 320px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

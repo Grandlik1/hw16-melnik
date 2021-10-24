@@ -1,0 +1,34 @@
+.new-design {
+    background-image: url(./../../../images/new-design/bcg.png);
+    background-position: 68%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 190px 0 160px 0;
+
+
+
+
+
+    .new-design__content {
+
+        @extend %subtitle;
+        @extend %title;
+
+        p {
+            max-width: 550px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 26px;
+            margin-bottom: 32px;
+            color: #717171;
+        }
+
+    }
+
+
+
+
+
+
+
+}
