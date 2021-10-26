@@ -1,0 +1,33 @@
+.awesone-features {
+    padding-top: 110px;
+    background-color: #f6f5f3;
+
+    .awesone-features__content {
+
+
+        .awesone-features__title {
+            text-align: center;
+            @extend %subtitle;
+
+            @extend %title;
+            @include title (0 auto 48px, 600px);
+
+
+            p {
+                max-width: 750px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 26px;
+                word-spacing: 4px;
+                margin: 0 auto;
+                margin-bottom: 64px;
+                color: #717171;
+            }
+
+        }
+
+        .awesone-features__img {
+            text-align: center;
+        }
+    }
+}

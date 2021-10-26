@@ -40,6 +40,15 @@
                 border-radius: 4px;
                 text-transform: uppercase;
                 letter-spacing: 2px;
+
+                &:hover {
+                    background-color: #d65a5a;
+                }
+
+                &:active {
+                    background-color: #a54646;
+
+                }
             }
         }
 

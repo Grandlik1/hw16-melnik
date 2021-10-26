@@ -6,11 +6,23 @@
         font-weight: 500;
     }
 }
+
 %title {
     h2 {
         max-width: 550px;
         margin-bottom: 32px;
         font-size: 40px;
         font-weight: 500;
+    }
+}
+
+%text {
+    p {
+        max-width: 550px;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 26px;
+        margin-bottom: 32px;
+        color: #717171;
     }
 }

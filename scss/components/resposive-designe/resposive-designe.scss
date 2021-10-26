@@ -1,20 +1,23 @@
 .resposive-designe {
     padding: 140px 0;
-    background: url(./../../../images/responsive-designe/triangle.png) no-repeat ;
+    // background: url(./../../../images/responsive-designe/Rectangle.png) no-repeat;
 
 
 
 
 
-    .container {
-        background-image: url(./../../../images/responsive-designe/macbook.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
 
-    
+
+
+
+
 
     .resposive-designe__content {
+        &::before {
+            background: url(./../../../images/responsive-designe/Rectangle.png) no-repeat;
+            background-size: 100%
+        }
+
 
         @extend %subtitle;
         @extend %title;

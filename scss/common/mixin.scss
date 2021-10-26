@@ -1,0 +1,17 @@
+@mixin text ($text-max-width, $align) {
+    @extend %text;
+
+    p {
+        max-width: $text-max-width;
+        margin: $align;
+    }
+}
+
+@mixin title ($align, $max-width) {
+    @extend %title;
+
+    h2 {
+        margin: $align;
+        max-width: $max-width;
+    }
+}
