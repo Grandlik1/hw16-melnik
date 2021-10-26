@@ -43,6 +43,11 @@ footer {
                     color: #868686;
                     font-weight: 400;
 
+                    &:hover {
+                        color: #d65a5a;
+                    }
+
+
                 }
 
                 .social-links {
@@ -62,6 +67,7 @@ footer {
                     margin-bottom: 32px;
 
                     .email {
+                        width: 100%;
                         min-width: 260px;
                         display: inline-block;
                         outline: none;

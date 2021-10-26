@@ -61,6 +61,15 @@ body {
 }
 .banner .banner__content .play {
   margin-bottom: 16px;
+  padding: 0;
+}
+.banner .banner__content .play:hover {
+  box-shadow: 0 0 5px #000, inset 0 1px 8px -2px #fff;
+  border-radius: 50%;
+}
+.banner .banner__content .play:active {
+  box-shadow: 0 0 5px #76a8f3, inset 0 1px 8px -2px #fff;
+  border-radius: 50%;
 }
 .banner .banner__content h1 {
   font-size: 50px;
@@ -98,7 +107,7 @@ body {
 
 .new-design {
   background-image: url(./../../../images/new-design/bcg.png);
-  background-position: 68%;
+  background-position: 70% 0;
   background-size: contain;
   background-repeat: no-repeat;
   padding: 190px 0 160px 0;
@@ -235,7 +244,7 @@ body {
   color: white;
   border: 1px solid #999cb4;
   border-radius: 4px;
-  padding: 11px 40px 11px 32px;
+  padding: 13px 40px 11px 32px;
   background-color: #474d78;
   letter-spacing: 2px;
 }
@@ -307,6 +316,9 @@ footer .footer__content ul li a {
   color: #868686;
   font-weight: 400;
 }
+footer .footer__content ul li a:hover {
+  color: #d65a5a;
+}
 footer .footer__content ul li .social-links {
   text-align: center;
   margin-right: 16px;
@@ -319,6 +331,7 @@ footer .footer__content ul li form {
   margin-bottom: 32px;
 }
 footer .footer__content ul li form .email {
+  width: 100%;
   min-width: 260px;
   display: inline-block;
   outline: none;

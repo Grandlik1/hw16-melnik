@@ -13,6 +13,20 @@
 
         .play {
             margin-bottom: 16px;
+            padding: 0;
+
+            &:hover {
+                box-shadow: 0 0 5px #000, inset 0 1px 8px -2px #fff;
+                border-radius: 50%;
+
+            }
+            &:active {
+                box-shadow: 0 0 5px rgb(118, 168, 243), inset 0 1px 8px -2px #fff;
+                border-radius: 50%;
+                
+
+            }
+
         }
 
         h1 {
