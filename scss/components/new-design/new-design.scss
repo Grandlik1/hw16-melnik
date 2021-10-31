@@ -1,9 +1,40 @@
 .new-design {
-    background-image: url(./../../../images/new-design/bcg.png);
-    background-position: 70% 0;
-    background-size: contain;
-    background-repeat: no-repeat;
     padding: 190px 0 160px 0;
+    position: relative;
+
+    &::after {
+        width: 100%;
+        display: block;
+        content: '';
+        background-color: #ff8a8a;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: calc(-50% - 660px);
+
+    }
+
+    .container-bcg {
+
+        position: relative;
+
+        &:before {
+            content: '';
+            width: 0;
+            height: 100%;
+            display: block;
+            position: absolute;
+            top: -190px;
+            right: 0;
+            z-index: -1;
+            border-top: 760px solid transparent;
+            border-bottom: 0 solid transparent;
+            border-right: $p_width solid #ff8a8a;
+        }
+
+    }
+
+
 
 
 

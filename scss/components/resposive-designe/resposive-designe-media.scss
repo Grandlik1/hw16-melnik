@@ -1,0 +1,29 @@
+// @media (max-width:$xll) {
+
+// }
+
+// @media (max-width:$lg) {
+
+// }
+
+@media (max-width:$sm) {
+    .resposive-designe {
+        padding: 60px 0;
+
+        &::after {
+            display: none;
+
+
+        }
+
+        .container-bg {
+
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+// @media (max-width:$sm) {}

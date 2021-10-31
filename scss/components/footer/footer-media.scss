@@ -1,0 +1,29 @@
+// @media (max-width:$xll) {
+
+// }
+
+// @media (max-width:$lg) {
+
+// }
+
+@media (max-width:$sm) {
+    footer {
+        padding: 40px 0;
+
+        &::after {
+            display: none;
+
+
+        }
+
+        .footer-bcg {
+
+
+            &:before {
+                display: none;
+            }
+        }
+    }
+}
+
+// @media (max-width:$sm) {}

@@ -1,22 +1,57 @@
+$p_width: 650px;
+
 .resposive-designe {
     padding: 140px 0;
-    // background: url(./../../../images/responsive-designe/Rectangle.png) no-repeat;
+    overflow-x: hidden;
+    position: relative;
 
+    &:before {
+        width: 100%;
+        display: block;
+        content: '';
+        background-color: #ff8a8a;
+        height: 650px;
+        position: absolute;
+        top: 0;
+        left: calc(-50% - 660px);
 
+    }
 
+    .container-bg {
 
+        position: relative;
 
+        &:before {
+            content: '';
+            width: 0;
+            height: 0;
+            display: block;
+            position: absolute;
+            top: -140px;
+            left: 0;
+            z-index: -1;
+            border-top: $p_width solid transparent;
+            border-bottom: 0 solid transparent;
+            border-left: $p_width solid #ff8a8a;
+        }
 
-
-
+    }
 
 
 
     .resposive-designe__content {
-        &::before {
-            background: url(./../../../images/responsive-designe/Rectangle.png) no-repeat;
-            background-size: 100%
+        .macbook-img {
+            width: 100%;
+            max-height: 350px;
+            max-width: 600px;
+            margin-bottom: 32px;
+
+            img {
+                width: 100%;
+            }
         }
+
+
 
 
         @extend %subtitle;

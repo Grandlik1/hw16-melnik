@@ -28,6 +28,12 @@
 
         .awesone-features__img {
             text-align: center;
+            margin: 0 auto;
+            width: 70%;
+
+            img {
+                width: 100%;
+            }
         }
     }
 }
